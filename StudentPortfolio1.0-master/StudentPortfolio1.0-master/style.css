@@ -1,0 +1,42 @@
+h1 {
+    color: #ffff;
+    font-style:oblique;
+   font-size:20px
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: #147549;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+
+}
+body{
+    background-image:url("fb.png");
+    background-size: 0.03cm
+}
